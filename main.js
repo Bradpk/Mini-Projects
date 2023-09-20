@@ -2,7 +2,8 @@
 // A temperature converter 
 
 
-const temp = document.getElementById('temp')
+const fahrenheitText = document.getElementById('fahrenheit')
+const newtonText = document.getElementById('newton')
 
 const kelvin = 293
 let celsius = kelvin - 273 
@@ -14,7 +15,8 @@ let fahrenheit = celsius * (9/5) + 32
 fahrenheit = Math.floor(fahrenheit);
 
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`)
-temp.innerHTML = fahrenheit
+fahrenheitText.innerHTML = `The temperature is ${fahrenheit} degrees Fahrenheit`
 
 console.log(`The temperature is ${newton} degrees Newtons`)
+newtonText.innerHTML = `The temperature is ${newton} degrees Newtons`
 //---------------------------------------------------------------------------------------------------------------------------------------
