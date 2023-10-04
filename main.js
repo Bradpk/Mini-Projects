@@ -1,5 +1,5 @@
 //---------------------------------------------------------------------------------------------------------------------------------------
-// A temperature converter 
+// A Temperature Converter 
 
 const fahrenheitText = document.getElementById('fahrenheit')
 const newtonText = document.getElementById('newton')
@@ -20,7 +20,7 @@ fahrenheitText.innerHTML = `The temperature is ${fahrenheit} degrees Fahrenheit`
 console.log(`The temperature is ${newton} degrees Newtons`)
 newtonText.innerHTML = `The temperature is ${newton} degrees Newtons`
 //---------------------------------------------------------------------------------------------------------------------------------------
-// Your age in dog Years
+// Your Age In Dog Years
 
 let myAge = 30
 let earlyYears = 2 
@@ -32,5 +32,6 @@ let myName = 'Brad'.toLowerCase();
 
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
 dogText.innerHTML = `My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`
-
 //---------------------------------------------------------------------------------------------------------------------------------------
+// Magic Eight Ball
+
